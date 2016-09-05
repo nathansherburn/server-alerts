@@ -1,0 +1,29 @@
+{
+  "name": "server-alerts",
+  "version": "1.0.0",
+  "description": "Send email alerts when a server is not reachable",
+  "main": "alerts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathansherburn/server-alerts.git"
+  },
+  "keywords": [
+    "email",
+    "alert",
+    "server",
+    "ping",
+    "check"
+  ],
+  "author": "Nathan Sherburn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathansherburn/server-alerts/issues"
+  },
+  "homepage": "https://github.com/nathansherburn/server-alerts#readme",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
